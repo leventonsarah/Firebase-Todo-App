@@ -17,11 +17,13 @@ A sheet appears, allowing the user to enter the title of a todo. It will not be 
 By pressing on the checkmark or cross, the todo's status changes from completed to incomplete, and vice-versa.
 ![mark as completed](ss/complete.png)
 ![mark as incomplete](ss/incomplete.png)
+
 The Firestore database is updated accordingly:
 ![updated database](ss/completed-db.png)
 
 ### 4. Delete todos
 Swipe left on the todo to delete it.
 ![delete todo](ss/delete.png)
+
 The todo is deleted from the database as well:
 ![deleted from db](ss/deleted.png)
