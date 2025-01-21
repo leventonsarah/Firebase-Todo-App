@@ -23,6 +23,7 @@ The Firestore database is updated accordingly:
 
 ### 4. Delete todos
 Swipe left on the todo to delete it.
+
 ![delete todo](ss/delete.png)
 
 The todo is deleted from the database as well:
